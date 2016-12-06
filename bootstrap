@@ -1,0 +1,5 @@
+#!/bin/bash
+
+HITCH_PARAMS=${HITCH_PARAMS-}
+
+hitch ${HITCH_PARAMS}

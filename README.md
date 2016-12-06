@@ -1,2 +1,9 @@
 # hitch-kubernetes
-A Hitch Build and Utilities for Kubernetes (work in progress)
+goals:
+* read TLS certs from kubernetes secrets
+* reload or restart hitch when TLS certs are updated
+* handle some edge cases without exploding
+
+## Thanks
+
+Thanks to zazukoians for working example code at https://github.com/zazukoians/docker-hitch
