@@ -1,9 +1,9 @@
 FROM alpine:3.4
-
-COPY ./bootstrap /usr/local/bin/hitch-start
 CMD "/usr/local/bin/hitch-start"
 
-RUN apk --update add build-base libev libev-dev automake openssl openssl-dev bash autoconf curl byacc flex && \
+COPY ./bootstrap /usr/local/bin/hitch-start
+
+RUN apk --update add autoconf automake bash build-base byacc curl flex libev libev-dev openssl openssl-dev && \
     cd /tmp && \
     curl -L https://api.github.com/repos/varnish/hitch/tarball/hitch-1.4.3 | tar xz && \
     cd varnish-hitch* && \
