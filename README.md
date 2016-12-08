@@ -6,4 +6,4 @@ goals:
 
 ## Thanks
 
-Thanks to zazukoians for working example code at https://github.com/zazukoians/docker-hitch
+Thanks to zazukoians for working example install at https://github.com/zazukoians/docker-hitch
