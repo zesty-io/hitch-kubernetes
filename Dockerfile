@@ -5,7 +5,7 @@ COPY ./bootstrap /usr/local/bin/hitch-start
 
 RUN apk --update add autoconf automake bash build-base byacc curl flex libev libev-dev openssl openssl-dev && \
     cd /tmp && \
-    curl -L https://api.github.com/repos/varnish/hitch/tarball/hitch-1.4.3 | tar xz && \
+    curl -L https://api.github.com/repos/varnish/hitch/tarball/hitch-1.4.4 | tar xz && \
     cd varnish-hitch* && \
     ./bootstrap && \
     ./configure && \
