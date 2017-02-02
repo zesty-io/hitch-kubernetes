@@ -2,4 +2,4 @@
 
 HITCH_PARAMS=${HITCH_PARAMS-}
 
-hitch ${HITCH_PARAMS}
+exec hitch ${HITCH_PARAMS}
