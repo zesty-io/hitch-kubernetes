@@ -1,5 +1,7 @@
 #!/bin/bash
 
+trap "killall hitch" SIGTERM
+
 HITCH_PARAMS=${HITCH_PARAMS-}
 
 hitch ${HITCH_PARAMS}
