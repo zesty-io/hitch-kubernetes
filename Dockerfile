@@ -1,5 +1,5 @@
 FROM alpine:3.4
-CMD "/usr/local/bin/hitch-start"
+CMD ["/usr/local/bin/hitch-start"]
 
 COPY ./bootstrap /usr/local/bin/hitch-start
 
